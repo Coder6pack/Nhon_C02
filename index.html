@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <p>Thông tin sinh viên</p>
+        <div style="border: solid">
+          <form action="">
+            <label for="name">Họ và tên</label> <input id="name" type="text" />
+            <br />
+            <label for="date">Ngày sinh</label> <input id="date" type="date" />
+            <br />
+            <p>Giới Tính</p>
+            <label for="nam">Nam</label>
+            <input id="nam" type="radio" name="gender" value="boy" checked />
+            <label for="nu">Nữ</label>
+            <input type="radio" name="gender" value="girl" id="nu" />
+            <label for="khac">Khác</label>
+            <input type="radio" name="gender" value="another" id="khac" />
+            <br />
+            <br />
+            Tổ hợp xét tuyển
+
+            <br />
+            <label for="math">Toán</label>
+            <input type="checkbox" id="math" value="math" />
+            <br />
+            <label for="physical">Lý</label>
+            <input type="checkbox" id="physical" value="physical" />
+            <br />
+            <label for="chemistry">Hoá</label>
+            <input type="checkbox" id="chemistry" value="chemistry" />
+            <br />
+            <label for="english">Tiếng Anh</label>
+            <input type="checkbox" id="english" value="english" />
+          </form>
+        </div>
+        <div style="border: solid">
+          <form action="">
+            <p>Thông tin liên lạc</p>
+            <label for="email">Email</label> <input type="email" id="email" />
+            <br />
+            <label for="phone">Điện thoại</label>
+            <input type="text" id="phone" />
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
